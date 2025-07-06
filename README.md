@@ -92,6 +92,53 @@ css/* Cambiar colores de estados */
    Qué hace: Cuando pasas el mouse sobre el ojo, detiene las animaciones automáticas y cambia a color azul.
 6. Focus en el input
    Qué hace: Cuando haces clic en el campo de contraseña, los ojos parpadean para "saludar".
+   <!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ojo Animado para Contraseña</title>
+    <link rel="stylesheet" href="css/componente.css">
+    <script src="js/componente.js" defer></script>
+</head>
+
+<body>
+    <div class="contenedor-contraseña">
+        <div class="etiqueta-contraseña">Ingresa tu contraseña</div>
+        <div class="envoltorio-input">
+            <input type="password" id="inputContraseña" placeholder="••••••••">
+            <div class="contenedor-ojo" id="contenedorOjo">
+                <div class="cejas-enojadas">
+                    <div class="ceja izquierda"></div>
+                    <div class="ceja derecha"></div>
+                </div>
+                <div class="ojo">
+                    <div class="ojo-individual">
+                        <div class="pestañas"></div>
+                        <div class="globo-ocular">
+                            <div class="pupila">
+                                <div class="brillo"></div>
+                            </div>
+                        </div>
+                        <div class="lagrima izquierda"></div>
+                    </div>
+                    <div class="ojo-individual">
+                        <div class="pestañas"></div>
+                        <div class="globo-ocular">
+                            <div class="pupila">
+                                <div class="brillo"></div>
+                            </div>
+                        </div>
+                        <div class="lagrima derecha"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
 ![image](https://github.com/user-attachments/assets/7a343039-de8c-4b02-90bc-4b8125329575)
 ![image](https://github.com/user-attachments/assets/c061742a-4413-425f-9580-d69a90b861c3)
 ![image](https://github.com/user-attachments/assets/745febbf-f2e8-4ee9-b1b4-269b3b457024)
