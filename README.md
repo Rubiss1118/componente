@@ -1,6 +1,6 @@
-    TECNOLÓGICO NACIONAL DE MEXICO
+                 TECNOLÓGICO NACIONAL DE MEXICO
 
-     INSTITUTO TECNOLÓGICO DE OAXACA			
+                 INSTITUTO TECNOLÓGICO DE OAXACA			
 
 		 Departamento de Ingeniería en Sistemas Computacionales
 
@@ -80,6 +80,26 @@ css/* Cambiar colores de estados */
     background: #3498db; /* Azul para siguiendo */
 }
 # Capturas de pantalla
+1. iniciarParpadeo()
+   Qué hace: Hace que los ojos parpadeen automáticamente cada 3 segundos con 70% de probabilidad, como ojos reales.
+2. iniciarMirarAlrededor()
+   Qué hace: Mueve los ojos aleatoriamente cada 4 segundos cuando no hay interacción, simulando que "mira alrededor".
+3. seguirRaton(e)
+   Qué hace: Hace que las pupilas sigan el cursor del mouse por toda la página usando cálculos matemáticos.
+4. Click en el ojo
+   Qué hace: Cambia entre mostrar/ocultar contraseña y aplica diferentes emociones al ojo.
+5. Mouse enter (entrar con el mouse)
+   Qué hace: Cuando pasas el mouse sobre el ojo, detiene las animaciones automáticas y cambia a color azul.
+6. Focus en el input
+   Qué hace: Cuando haces clic en el campo de contraseña, los ojos parpadean para "saludar".
+![image](https://github.com/user-attachments/assets/7a343039-de8c-4b02-90bc-4b8125329575)
+![image](https://github.com/user-attachments/assets/c061742a-4413-425f-9580-d69a90b861c3)
+![image](https://github.com/user-attachments/assets/745febbf-f2e8-4ee9-b1b4-269b3b457024)
+![image](https://github.com/user-attachments/assets/62a46899-8ec8-4141-af08-1316ae49e853)
+![image](https://github.com/user-attachments/assets/87e8ca90-0db0-4f5d-ab6b-f60b3f1b921a)
+
+
+
 # Vídeo de demostración
 
 El video muestra:
@@ -87,7 +107,6 @@ El video muestra:
 Cómo el ojo sigue el cursor del mouse
 Transición entre estados (visible/oculto)
 Animaciones de parpadeo y salto
-Efecto de lágrimas
 Interactividad completa del componente
 
 # GitHub Pages
